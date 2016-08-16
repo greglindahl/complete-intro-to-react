@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A two day workshop on a complete intro to React",
   "main": "index.js",
-  "author": "Brian Holt <btholt@gmail.com>",
+  "scripts": {
+    "test": "standard",
+    "build": "webpack js/ClientApp.js public/bundle.js"
+  },
+  "author": "Greg Lindahl <greglindahl410@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "0.9.1",
@@ -44,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btholt/complete-intro-to-react.git"
+    "url": "git+https://github.com/greglindahl/complete-intro-to-react"
   },
   "keywords": [
     "react",
@@ -53,7 +57,7 @@
     "redux"
   ],
   "bugs": {
-    "url": "https://github.com/btholt/complete-intro-to-react/issues"
+    "url": "https://github.com/greglindahl/complete-intro-to-react/issues"
   },
-  "homepage": "https://github.com/btholt/complete-intro-to-react#readme"
+  "homepage": "https://github.com/greglindahl/complete-intro-to-react/#readme"
 }
