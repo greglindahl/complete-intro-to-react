@@ -1,7 +1,7 @@
 {
   "name": "complete-intro-to-react",
   "version": "1.0.0",
-  "description": "A two day workshop on a complete intro to React",
+  "description": "Sample app from my two day workshop on a complete intro to React",
   "main": "index.js",
   "scripts": {
     "test": "standard",
